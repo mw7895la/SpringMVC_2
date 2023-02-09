@@ -17,7 +17,7 @@
 <ul>
   <li>Request Parameter = <span th:text="${param.paramData}"></span></li>   <!--param 너무 자주 쓰기 때문에 타임리프가 지원해준다-->
   <li>session = <span th:text="${session.sessionData}"></span></li>
-  <li>spring bean = <span th:text="${@helloBean.hello('Spring!')}"></span></li> <!--@하고 스프링 빈 이름을 @Component에서 직접 정했다. hello()에 'Spring!'을 넘겨서 데이터 만듦.-->
+  <li>spring bean = <span th:text="${@helloBean.hello('Spring!')}"></span></li> <!--@하고 스프링 빈,  이름은 @Component에서 직접 정했다. hello()에 'Spring!'을 넘겨서 데이터 만듦.-->
 </ul>
 </body>
 </html>
